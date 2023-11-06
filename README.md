@@ -4,7 +4,7 @@ This project the tracking of buses that are in parts of Singapore
 
 ## How to Run?
 ### Method 1: Click on the link
-Click on the link below to run this project on your default browser
+Click on the link below to run this project on your default browser<br>
 [Run Real Time Bus Tracker](https://tancrescens.github.io/bus-tracker)
 
 ### Method 2: Download and run on your browser
