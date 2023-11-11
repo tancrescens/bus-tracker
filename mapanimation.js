@@ -1,3 +1,13 @@
+function initMap () {
+    
+    var options = {
+        center: {lat: 1.3853796796577809, lng: 103.74487128465967},
+        zoom: 17
+    }
+    
+    // Creation of Map object
+    map = new google.maps.Map(document.getElementById("map"), options)
+}
 
 // console.log('connected');
 // // Initialize and add the map
@@ -13,8 +23,7 @@
 
 //   // The map, centered at Singapore
 //   map = new Map(document.getElementById("map"), {
-//     zoom: 4,
-//     center: position,
+//     zoom: 4,//     center: position,
 //     mapId: "DEMO_MAP_ID",
 //   });
 

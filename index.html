@@ -4,10 +4,7 @@
     <!-- References -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <script type="module" src="./mapanimation.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="/style.css">
     
     <!-- Title -->
     <title>Real Time Bus Tracker</title>
@@ -28,7 +25,7 @@
     <div id="map"></div>
 
     <!-- Scripts -->
-    <script>
+    <!-- <script>
         function initMap() {
         let singapore = {lat: 1.3853314140085549, lng: 103.74492492883597};
         let map = new google.maps.Map(
@@ -36,8 +33,11 @@
         );
         let marker = new google.maps.Marker({position: singapore, map: map});
         }
+    </script> -->
+
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ_gERUmiJqOrrX-ryZbm7c4b24KJnZpU&callback=initMap">
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ_gERUmiJqOrrX-ryZbm7c4b24KJnZpU&callback=initMap"></script>
-    
+    <script src="/mapanimation.js"></script>
 </body>
 </html>
