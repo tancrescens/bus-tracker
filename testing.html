@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        async function getBusLocation() {
+            await fetch('http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode=44461&ServiceNo=188', {
+            // fetch('https://reqres.in/api/users', {
+                method: "GET",
+                headers: {
+                    "AccountKey": "jjGDI3/TTG6wPZBatS96ww==",
+                    // "Host": "http://127.0.0.1:5500",
+                    // "Access-Control-Allow-Origin": "http://127.0.0.1:5500",
+                },
+                mode: "no-cors",
+            })
+                .then(result => {
+                    if (result.ok) {
+                        console.log("fetch success");
+                        result.json().then(data => {
+                            console.log(data);
+                        });
+                    } else {
+                        console.log("fetch not successful")
+                    }
+                });
+                    
+        }
+        getBusLocation();
+    </script>
+
+</body>
+</html>

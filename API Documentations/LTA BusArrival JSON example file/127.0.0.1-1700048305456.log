@@ -1,0 +1,10 @@
+(index):59 Live reload enabled.
+127.0.0.1/:1 Access to fetch at 'http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode=44461&ServiceNo=188' from origin 'http://127.0.0.1:5500' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: It does not have HTTP ok status.
+datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode=44461&ServiceNo=188:1 
+
+google: Access to fetch at api link from origin 'http://127.0.0.1:5500' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: It does not have HTTP ok status'        
+        
+       Failed to load resource: net::ERR_FAILED
+mapanimation.js:43 error TypeError: Failed to fetch
+    at getBusLocations (mapanimation.js:40:5)
+    at mapanimation.js:45:1
